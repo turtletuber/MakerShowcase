@@ -17,10 +17,10 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen">
+    <div className="flex flex-col md:flex-row min-h-screen pattern-light">
       <Sidebar isMobileMenuOpen={isMobileMenuOpen} toggleMobileMenu={toggleMobileMenu} />
       
-      <main className="flex-grow">
+      <main className="flex-grow md:ml-60 w-full">
         <Hero />
         <Impact />
         <RecentActivity />

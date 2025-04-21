@@ -13,7 +13,7 @@ export default function Impact() {
           <div className="md:w-2/3">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">How I Make an Impact</h2>
             
-            <ul className="space-y-4">
+            <ul className="space-y-5">
               <li className="flex items-start">
                 <span className="text-primary font-bold mr-2">•</span>
                 <div>
@@ -44,17 +44,17 @@ export default function Impact() {
             </ul>
             
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
-              <div className="bg-gray-50 p-4 rounded-lg text-center">
+              <div className="bg-primary/5 p-4 rounded-lg text-center">
                 <div className="text-2xl font-bold text-primary">7+ yrs</div>
                 <div className="text-sm text-gray-500">Teaching</div>
               </div>
               
-              <div className="bg-gray-50 p-4 rounded-lg text-center">
+              <div className="bg-primary/5 p-4 rounded-lg text-center">
                 <div className="text-2xl font-bold text-primary">4+ yrs</div>
                 <div className="text-sm text-gray-500">Managing</div>
               </div>
               
-              <div className="bg-gray-50 p-4 rounded-lg text-center">
+              <div className="bg-primary/5 p-4 rounded-lg text-center">
                 <div className="text-2xl font-bold text-primary">$25k+</div>
                 <div className="text-sm text-gray-500">Awards & Grants</div>
               </div>

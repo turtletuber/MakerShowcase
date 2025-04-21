@@ -10,15 +10,15 @@ interface SidebarProps {
 
 export default function Sidebar({ isMobileMenuOpen, toggleMobileMenu }: SidebarProps) {
   return (
-    <aside className="w-full md:w-72 bg-primary text-white flex flex-col">
-      <div className="p-6 flex flex-col items-center md:items-start">
-        <div className="w-16 h-16 bg-white text-primary rounded-full flex items-center justify-center text-xl font-bold mb-4">
+    <aside className="w-full md:w-60 bg-primary text-white flex flex-col h-auto md:h-screen md:fixed z-40">
+      <div className="p-6 flex flex-col items-center">
+        <div className="w-14 h-14 bg-white text-primary rounded-full flex items-center justify-center text-xl font-bold mb-4">
           MA
         </div>
-        <h1 className="text-2xl font-bold">Mike Amato</h1>
-        <p className="text-primary-foreground/80 mt-1">STEM Educator | Engineer | Ed-Tech Consultant</p>
+        <h1 className="text-3xl font-bold text-center">Mike Amato</h1>
+        <p className="text-primary-foreground/80 mt-1 text-center text-sm">STEM Educator | Engineer | Ed-Tech Consultant</p>
         
-        <p className="text-sm text-primary-foreground/90 mt-4">
+        <p className="text-sm text-primary-foreground/90 mt-4 text-center">
           Taking intimidating concepts and making them tactile, playful, and deeply human. Passionate about making engineering education fun, memorable, and inclusive for all learners.
         </p>
         
@@ -39,7 +39,7 @@ export default function Sidebar({ isMobileMenuOpen, toggleMobileMenu }: SidebarP
           </div>
         </div>
         
-        <Button className="mt-6 w-full bg-white text-primary hover:bg-white/90">
+        <Button className="mt-6 w-full bg-white text-primary hover:bg-white/90 rounded-full font-medium">
           Get in Touch
         </Button>
       </div>
@@ -53,7 +53,7 @@ export default function Sidebar({ isMobileMenuOpen, toggleMobileMenu }: SidebarP
       </button>
       
       {/* Navigation */}
-      <nav className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:block flex-grow mt-8`}>
+      <nav className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:block flex-grow mt-4`}>
         <ul>
           <li><a href="#impact" className="block px-6 py-2 hover:bg-primary-foreground/10 transition-colors">Impact</a></li>
           <li><a href="#activity" className="block px-6 py-2 hover:bg-primary-foreground/10 transition-colors">Recent Activity</a></li>
@@ -65,7 +65,7 @@ export default function Sidebar({ isMobileMenuOpen, toggleMobileMenu }: SidebarP
       </nav>
       
       <div className="p-6 text-sm mt-auto hidden md:block">
-        <div className="flex space-x-3 mt-3">
+        <div className="flex space-x-3 mt-3 justify-center">
           <a href="#" className="text-white hover:text-primary-foreground/80 transition-colors">
             <FaTiktok className="h-4 w-4" />
           </a>
