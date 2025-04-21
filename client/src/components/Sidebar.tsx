@@ -55,12 +55,12 @@ export default function Sidebar({ isMobileMenuOpen, toggleMobileMenu }: SidebarP
       {/* Navigation */}
       <nav className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:block flex-grow mt-8`}>
         <ul>
-          <li><a href="#impact" className="block px-6 py-2 hover:bg-primary-foreground/10 transition-colors">Impact</a></li>
+          <li><a href="#hero" className="block px-6 py-2 hover:bg-primary-foreground/10 transition-colors">How I Make an Impact</a></li>
           <li><a href="#activity" className="block px-6 py-2 hover:bg-primary-foreground/10 transition-colors">Recent Activity</a></li>
           <li><a href="#experience" className="block px-6 py-2 hover:bg-primary-foreground/10 transition-colors">Experience</a></li>
           <li><a href="#resources" className="block px-6 py-2 hover:bg-primary-foreground/10 transition-colors">Resource Library</a></li>
-          <li><a href="#nonprofit" className="block px-6 py-2 hover:bg-primary-foreground/10 transition-colors">Nonprofit</a></li>
-          <li><a href="#contact" className="block px-6 py-2 hover:bg-primary-foreground/10 transition-colors">Contact</a></li>
+          <li><a href="#nonprofit" className="block px-6 py-2 hover:bg-primary-foreground/10 transition-colors">Kids Should Make Things</a></li>
+          <li><a href="#contact" className="block px-6 py-2 hover:bg-primary-foreground/10 transition-colors">Get in Touch</a></li>
         </ul>
       </nav>
       
