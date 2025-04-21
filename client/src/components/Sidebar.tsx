@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { FaBars } from "react-icons/fa";
 import { FaTiktok, FaYoutube } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -15,33 +14,6 @@ export default function Sidebar({ isMobileMenuOpen, toggleMobileMenu }: SidebarP
         <div className="w-14 h-14 bg-white text-primary rounded-full flex items-center justify-center text-xl font-bold mb-4">
           MA
         </div>
-        <h1 className="text-3xl font-bold text-center">Mike Amato</h1>
-        <p className="text-primary-foreground/80 mt-1 text-center text-sm">STEM Educator | Engineer | Ed-Tech Consultant</p>
-        
-        <p className="text-sm text-primary-foreground/90 mt-4 text-center">
-          Taking intimidating concepts and making them tactile, playful, and deeply human. Passionate about making engineering education fun, memorable, and inclusive for all learners.
-        </p>
-        
-        <div className="grid grid-cols-3 gap-4 w-full mt-6">
-          <div className="text-center">
-            <div className="text-2xl font-bold">1,500+</div>
-            <div className="text-xs text-primary-foreground/80">Students Reached</div>
-          </div>
-          
-          <div className="text-center">
-            <div className="text-2xl font-bold">200+</div>
-            <div className="text-xs text-primary-foreground/80">STEM Kits Distributed</div>
-          </div>
-          
-          <div className="text-center">
-            <div className="text-2xl font-bold">30+</div>
-            <div className="text-xs text-primary-foreground/80">Workshops Hosted</div>
-          </div>
-        </div>
-        
-        <Button className="mt-6 w-full bg-white text-primary hover:bg-white/90 rounded-full font-medium">
-          Get in Touch
-        </Button>
       </div>
       
       {/* Mobile Navigation Toggle */}
